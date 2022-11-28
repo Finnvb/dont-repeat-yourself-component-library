@@ -1,4 +1,6 @@
 :root {
+    --color-white: #ffff;
+    --color-black: #000000;
     --dark: #101010;
     --light: #F3F3F3;
     --grey: #c7c7c7;
@@ -6,6 +8,12 @@
     --redLight: #da2a2a;
 }
 
+
+
+a{
+    color: var(--color-white);
+    text-decoration: none;
+}
 
 * {
 	padding: 0;

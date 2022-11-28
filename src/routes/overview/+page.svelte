@@ -3,6 +3,7 @@
 	import Window from 'ilojo-bar-components/components/Window.svelte';
 	import StoryPlateBtn from 'ilojo-bar-components/components/StoryPlateBtn.svelte';
 	import Header from 'ilojo-bar-components/components/Header.svelte';
+	import Link from 'ilojo-bar-components/components/Link.svelte';
 	import ScrollToTopButton from 'ilojo-bar-components/components/ScrollToTopButton.svelte';
 
 	import * as prismicH from '@prismicio/helpers';
@@ -13,7 +14,11 @@
 	console.log(document);
 </script>
 
-<Header />
+<Header>
+	{#each data.document as data}
+	<Link link={data.uid} linkTitle={data.uid}/>
+	{/each}
+</Header>
 
 <main>
 	<section>
@@ -42,6 +47,8 @@
 </main>
 
 <style>
+
+
 	main {
 		display: flex;
 		justify-content: center;

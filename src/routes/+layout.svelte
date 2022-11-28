@@ -9,6 +9,7 @@
     
     
     <PageTransition pathname={data.pathname}>
+        
     <slot></slot>
     
     </PageTransition>

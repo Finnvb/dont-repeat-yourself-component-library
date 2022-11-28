@@ -1,13 +1,18 @@
 <script>
 	export let data;
 	import * as prismicH from '@prismicio/helpers';
-
+	import Link from 'ilojo-bar-components/components/Link.svelte';
+	import Header from 'ilojo-bar-components/components/Header.svelte'
 	console.log(data);
 
-	import Header from 'ilojo-bar-components/components/Header.svelte';
 </script>
 
-<Header />
+<Header>
+	<!-- {#each data.document.stories as data}
+		<Link >
+	{/each} -->
+	<!-- <Link link="/" linkTitle="Home"></Link> -->
+</Header>
 <main>
 	<h1>{@html prismicH.asHTML(data.storytitle)}</h1>
 
