@@ -16,7 +16,8 @@
 
 	<h2>Discover the stories of the <br /> demolished bar in Lagos</h2>
 
-	<div>
+	<section>
+		<div>
 		<StoryPlateBtn
 			storyPlateImage={'goldplate.png'}
 			storyLink={'overview'}
@@ -25,10 +26,19 @@
 			height={'7rem'}
 		/>
 
+		<StoryPlateBtn
+		storyPlateImage={'goldplate2.png'}
+		storyLink={'form'}
+		storyLinkText={'Create Story'}
+		color={'#101010'}
+		height={'5rem'}
+	/>
+	</div>
+
 		<img src="cdf-1950s.png" alt="Ilojo-bar" />
 
 		<Clock />
-	</div>
+</section>
 <!-- <Form/> -->
 	<SmallFooter companyName={'Finn van Bekkum'} />
 </main>
@@ -56,7 +66,7 @@
 		margin: 2rem 0;
 	}
 
-	div img {
+	section img {
 		width: 450px;
 		height: 100%;
 		box-shadow: 0px 0px 20px 1px #000;
@@ -64,7 +74,7 @@
 		margin-top: 1rem;
 	}
 
-	div {
+	section {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
@@ -72,8 +82,13 @@
 		margin: 2rem 0;
 	}
 
+	div{
+		display: flex;
+		flex-direction: column;
+	}
+
 	@media (max-width: 40em) {
-		div {
+		section {
 			flex-direction: column-reverse;
 		}
 
@@ -85,7 +100,7 @@
 			font-size: 1.2rem;
 		}
 
-		div img {
+		section img {
 			margin-bottom: 2rem;
 			width: 300px;
 		}
