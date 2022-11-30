@@ -1,9 +1,10 @@
 <script>
 	import Clock from 'ilojo-bar-components/components/Clock.svelte';
 	import StoryPlateBtn from 'ilojo-bar-components/components/StoryPlateBtn.svelte';
-	import Footer from 'ilojo-bar-components/components/Footer.svelte';
-	import Link from 'ilojo-bar-components/components/Link.svelte';
+	import SmallFooter from 'ilojo-bar-components/components/SmallFooter.svelte';
 	import '../styles/global.css';
+
+	// import Form from 'ilojo-bar-components/components/FormComponents/Form.svelte';
 </script>
 
 <svelte:head>
@@ -28,8 +29,8 @@
 
 		<Clock />
 	</div>
-
-	<Footer companyName={'Finn van Bekkum'} />
+<!-- <Form/> -->
+	<SmallFooter companyName={'Finn van Bekkum'} />
 </main>
 
 <style>

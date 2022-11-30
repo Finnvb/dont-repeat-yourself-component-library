@@ -3,6 +3,9 @@
 	import * as prismicH from '@prismicio/helpers';
 	import Link from 'ilojo-bar-components/components/Link.svelte';
 	import Header from 'ilojo-bar-components/components/Header.svelte'
+	import ScrollToTopButton from 'ilojo-bar-components/components/ScrollToTopButton.svelte';
+	// import BigFooter from 'ilojo-bar-components/components/BigFooter.svelte';
+	import SmallFooter from 'ilojo-bar-components/components/SmallFooter.svelte';
 	console.log(data);
 
 </script>
@@ -90,6 +93,9 @@
 			alt={data.storyimages[0].image1.alt}
 		/>
 	{/each} -->
+	<ScrollToTopButton buttonLink={data.uid} />
+	<!-- <BigFooter/> -->
+	<SmallFooter companyName={'Finn van Bekkum'}/>
 </main>
 
 <style>
