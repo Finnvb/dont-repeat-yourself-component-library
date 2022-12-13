@@ -1,38 +1,57 @@
-# create-svelte
+# ⚡ Ilojo Bar (Component Library)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+![afbeelding](https://user-images.githubusercontent.com/26089533/207358410-f412bb08-82b7-4d04-b999-cc4a00a94d5e.png)
 
-## Creating a project
+In dit project wordt de Ilojo Bar website gebouwd met behulp van de component library die we hebben gemaakt voor de Ilojo Bar. 
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 📚 Inhoudsopgave
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+  * [Beschrijving](#beschrijving)
+  * [Kenmerken](#kenmerken)
+  * [Installatie](#installatie)
+  * [Gebruik](#gebruik)
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
+  
+## ⚡ Kenmerken
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Dit project is gemaakt met SvelteKit, Prismic.io en de Ilojo Bar components library.
+ 
+**Tools**
 
-## Developing
+- VSCode
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+**Gebruikte technieken**
 
-```bash
-npm run dev
+- SvelteKit
+- Prismic.io
+- Ilojo Bar components
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
-## Building
+## 📥 Installatie
 
-To create a production version of your app:
+1. Clone of download deze repository
+2. Ga naar de root directory van het project.
+3. Gebruik `npm install` om de gebruikte dev dependencies en packages te installeren.
+4. Gebruik `npm run dev` om de web-server te starten. Deze is standaard bereikbar op poort `3000`.
 
-```bash
-npm run build
-```
 
-You can preview the production build with `npm run preview`.
+## 🔨 Gebruik
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Dit project kun je bekijken via onderstaande link:
+
+[Ilojo Bar](https://dont-repeat-yourself-component-library-nu.vercel.app/)
+
+## 📖 Bronnen
+
+[SvelteKit](https://kit.svelte.dev/)
+<br>
+[Prismic](https://prismic.io/)
+<br>
+[Component Library](https://www.npmjs.com/package/ilojo-bar-components)
+
+## 🔓 Licentie
+
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+This work is licensed under [GNU GPLv3](./LICENSE).
