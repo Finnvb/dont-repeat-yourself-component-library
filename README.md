@@ -28,7 +28,7 @@ Dit project is gemaakt met SvelteKit, Prismic.io en de Ilojo Bar components libr
 - Ilojo Bar components
 
 
-## 📥 Installatie
+## Installatie
 
 1. Clone of download deze repository
 2. Ga naar de root directory van het project.
@@ -42,7 +42,7 @@ Dit project kun je bekijken via onderstaande link:
 
 [Ilojo Bar](https://dont-repeat-yourself-component-library-nu.vercel.app/)
 
-## 📖 Bronnen
+## Bronnen
 
 [SvelteKit](https://kit.svelte.dev/)
 <br>
