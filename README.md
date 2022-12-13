@@ -1,10 +1,10 @@
-# ⚡ Ilojo Bar (Component Library)
+# Ilojo Bar (Component Library)
 
 ![afbeelding](https://user-images.githubusercontent.com/26089533/207358410-f412bb08-82b7-4d04-b999-cc4a00a94d5e.png)
 
 In dit project wordt de Ilojo Bar website gebouwd met behulp van de component library die we hebben gemaakt voor de Ilojo Bar. 
 
-## 📚 Inhoudsopgave
+## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
@@ -13,7 +13,7 @@ In dit project wordt de Ilojo Bar website gebouwd met behulp van de component li
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
   
-## ⚡ Kenmerken
+## Kenmerken
 
 Dit project is gemaakt met SvelteKit, Prismic.io en de Ilojo Bar components library.
  
@@ -36,7 +36,7 @@ Dit project is gemaakt met SvelteKit, Prismic.io en de Ilojo Bar components libr
 4. Gebruik `npm run dev` om de web-server te starten. Deze is standaard bereikbar op poort `3000`.
 
 
-## 🔨 Gebruik
+## Gebruik
 
 Dit project kun je bekijken via onderstaande link:
 
@@ -50,7 +50,7 @@ Dit project kun je bekijken via onderstaande link:
 <br>
 [Component Library](https://www.npmjs.com/package/ilojo-bar-components)
 
-## 🔓 Licentie
+## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
